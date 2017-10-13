@@ -20,27 +20,27 @@ function chooseBackgroundColour() {
     console.log(colour); 
     switch (colour) {
         case 1: 
-            $("body").css("backgroundColor", "#E83223"); //RED
-            $("body").css("color", "#76FA46");
-            $(".button").css({"color" : "#76FA46", "border" : "1pt solid #76FA46" });
+            //RED
+            $("body").css("color", "#E83223"); 
+            $(".button").css({"color" : "#E83223", "border" : "1pt solid #E83223" }); 
             $("body .hdr-text").addClass("redneon"); 
             break; 
         case 2: 
-            $("body").css("backgroundColor", "#FDFD54"); //YELLOW
-            $("body").css("color", "#0627F4"); 
-            $(".button").css({"color" : "#0627F4", "border" : "1pt solid #0627F4" }); 
+            //YELLOW
+            $("body").css("color", "#FCED51");
+            $(".button").css({"color" : "#FCED51", "border" : "1pt solid #FCED51" });
             $("body .hdr-text").addClass("yellowneon"); 
             break; 
         case 3: 
-            $("body").css("backgroundColor", "#76FA46"); //GREEN
-            $("body").css("color", "#E83223"); 
-            $(".button").css({"color" : "#E83223", "border" : "1pt solid #E83223" }); 
+            //GREEN
+            $("body").css("color", "#76FA46");
+            $(".button").css({"color" : "#76FA46", "border" : "1pt solid #76FA46" });
             $("body .hdr-text").addClass("greenneon"); 
             break; 
         case 4: 
-            $("body").css("backgroundColor", "#0627F4"); //BLUE
-            $("body").css("color", "#FDFD54");
-            $(".button").css({"color" : "#FDFD54", "border" : "1pt solid #FDFD54" });
+            //BLUE
+            $("body").css("color", "#5d8cf7"); 
+            $(".button").css({"color" : "#5d8cf7", "border" : "1pt solid #5d8cf7" }); 
             $("body .hdr-text").addClass("blueneon"); 
             break; 
     } 
