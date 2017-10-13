@@ -5,10 +5,17 @@ body {
 }
 
 /* Neon colours */
-    .redneon { text-shadow: 0 0 10px #e47369, 0 0 15px #e47369, 0 0 20px #e47369, 0 0 80px #e71f0f, 0 0 100px #e71f0f; color: #e47369 !important; }
-    .yellowneon { text-shadow: 0 0 10px #fafd99, 0 0 15px #fafd99, 0 0 20px #fafd99, 0 0 80px #fae723, 0 0 100px #fae723; color: #fafd99 !important; }
-    .greenneon { text-shadow: 0 0 10px #9ff97e, 0 0 15px #9ff97e, 0 0 20px #9ff97e, 0 0 80px #5bff1f, 0 0 100px #5bff1f; color: #9ff97e !important; }
-    .blueneon { text-shadow: 0 0 10px #5d8cf7, 0 0 15px #5d8cf7, 0 0 20px #5d8cf7, 0 0 80px #1258f7, 0 0 100px #1258f7; color: #5d8cf7 !important; }
+    .redneon-text { text-shadow: 0 0 10px #e47369, 0 0 15px #e47369, 0 0 20px #e47369, 0 0 80px #e71f0f, 0 0 100px #e71f0f; color: #e47369 !important; }
+    .redneon-symbols { text-shadow: 0 0 10px #e47369, 0 0 15px #e47369, 0 0 30px #e71f0f, 0 0 40px #e71f0f; color: #e47369 !important; }
+
+    .yellowneon-text { text-shadow: 0 0 10px #fafd99, 0 0 15px #fafd99, 0 0 20px #fafd99, 0 0 80px #fae723, 0 0 100px #fae723; color: #fafd99 !important; }
+    .yellowneon-symbols { text-shadow: 0 0 10px #fafd99, 0 0 15px #fafd99, 0 0 30px #fae723, 0 0 40px #fae723; color: #fafd99 !important; }
+
+    .greenneon-text { text-shadow: 0 0 10px #9ff97e, 0 0 15px #9ff97e, 0 0 20px #9ff97e, 0 0 80px #5bff1f, 0 0 100px #5bff1f; color: #9ff97e !important; }
+    .greenneon-symbols { text-shadow: 0 0 10px #9ff97e, 0 0 15px #9ff97e, 0 0 30px #5bff1f, 0 0 40px #5bff1f; color: #9ff97e !important; }
+    
+    .blueneon-text { text-shadow: 0 0 10px #5d8cf7, 0 0 15px #5d8cf7, 0 0 20px #5d8cf7, 0 0 80px #1258f7, 0 0 100px #1258f7; color: #5d8cf7 !important; }
+    .blueneon-symbols { text-shadow: 0 0 10px #5d8cf7, 0 0 15px #5d8cf7, 0 0 30px #1258f7, 0 0 40px #1258f7; color: #5d8cf7 !important; }
 
 /* Header section */
     #header {
