@@ -1,0 +1,115 @@
+body {
+    background-color: #16703d;
+    color: white;
+    overflow: none;
+}
+
+/* Neon colours */
+    .redneon { text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 80px #76FA46, 0 0 100px #76FA46; color: white !important; }
+    .yellowneon { text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 80px #0627F4, 0 0 100px #0627F4; color: white !important; }
+    .greenneon { text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 80px #E83223, 0 0 100px #E83223; color: white !important; }
+    .blueneon { text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 80px #FDFD54, 0 0 100px #FDFD54; color: white !important; }
+
+/* Header section */
+    #header {
+        text-align: center;
+        margin-top: 25vh;
+    }
+
+    /* Main Title */
+        .prompt {
+            font-size: 6em;
+            font-weight: 900;
+        }
+
+        .hacked {
+            font-size: 6em;
+        }
+
+        .cursor {
+            font-size: 6em;
+            font-weight: 900;
+        }
+
+        @media only screen and (min-width: 400px) and (max-width: 720px) {
+            .prompt {
+                font-size: 15vw;
+            }
+
+            .hacked {
+                font-size: 15vw;
+            }
+
+            .cursor {
+                font-size: 15vw;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            .prompt, .hacked, .cursor {
+                font-size: 11vw; 
+            }
+        }
+
+    /* One line description */
+        .description {
+            font-size: 2em;
+            font-weight: 200;
+        }
+
+        @media only screen and (min-width: 400px) and (max-width: 720px) {
+            .description {
+                font-size: 4vw;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            .description {
+                margin-top: 4vw;
+                font-size: 8vw;
+            }
+        }
+
+    /* Bottom links */
+        .sponsorship_request {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            bottom: 2em;
+        }
+
+        .sponsor_prompt {
+            display: inline-block;
+            font-size: 2em;
+            font-weight: 200;
+        }
+
+        @media only screen and (min-width: 400px) and (max-width: 720px) {
+            .sponsor_prompt {
+                font-size: 4vw;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            .sponsor_prompt {
+                font-size: 4vw; 
+            }
+        }
+
+        .button {
+            display: inline-block;
+            text-decoration: none;
+            border: 1pt solid white;
+            color: white;
+            padding: 7pt;
+            border-radius: 6pt;
+            font-size: 0.8em;
+            font-weight: 200;
+        }
+
+        .button:hover {
+            background-color: white;
+            color: #16703d;
+            text-decoration: none;
+        }
+        
