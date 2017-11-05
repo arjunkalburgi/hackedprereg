@@ -1,0 +1,95 @@
+
+/* background colour (main colour) */
+	body {
+	    background-color: #212529;
+	}
+
+/* copy */
+
+	.copy, .text, .button {
+		color: #6f7887;
+		font-size: 13px;
+		line-height: 25px;
+		margin-top: 0px;
+		margin-bottom: 5px;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+/* #maintitle */
+
+	#maintitle > * {
+        font-size: 6em;
+        font-weight: 900;
+        font-family: BlinkMacSystemFont,sans-serif;
+        text-transform: uppercase;
+	}
+
+    #maintitle .redneon-text { text-shadow: 0 0 10px #e47369, 0 0 15px #e47369, 0 0 20px #e47369, 0 0 80px #e71f0f, 0 0 100px #e71f0f; color: #e47369 !important; }
+    #maintitle .redneon-symbols { text-shadow: 0 0 10px #e47369, 0 0 15px #e47369, 0 0 30px #e71f0f, 0 0 40px #e71f0f; color: #e47369 !important; }
+
+    #maintitle .yellowneon-text { text-shadow: 0 0 10px #fafd99, 0 0 15px #fafd99, 0 0 20px #fafd99, 0 0 80px #fae723, 0 0 100px #fae723; color: #fafd99 !important; }
+    #maintitle .yellowneon-symbols { text-shadow: 0 0 10px #fafd99, 0 0 15px #fafd99, 0 0 30px #fae723, 0 0 40px #fae723; color: #fafd99 !important; }
+
+    #maintitle .greenneon-text { text-shadow: 0 0 10px #9ff97e, 0 0 15px #9ff97e, 0 0 20px #9ff97e, 0 0 80px #5bff1f, 0 0 100px #5bff1f; color: #9ff97e !important; }
+    #maintitle .greenneon-symbols { text-shadow: 0 0 10px #9ff97e, 0 0 15px #9ff97e, 0 0 30px #5bff1f, 0 0 40px #5bff1f; color: #9ff97e !important; }
+    
+    #maintitle .blueneon-text { text-shadow: 0 0 10px #5d8cf7, 0 0 15px #5d8cf7, 0 0 20px #5d8cf7, 0 0 80px #1258f7, 0 0 100px #1258f7; color: #5d8cf7 !important; }
+    #maintitle .blueneon-symbols { text-shadow: 0 0 10px #5d8cf7, 0 0 15px #5d8cf7, 0 0 30px #1258f7, 0 0 40px #1258f7; color: #5d8cf7 !important; }
+
+    #maintitle .hacked { font-weight: normal !important; text-transform: none !important }
+
+/*.subtitles */
+
+	.subtitle {
+		font-size: 1.5em; 
+		font-weight: 200;
+		font-family: rational, sans-serif;
+		text-transform: uppercase;
+	}
+
+	.subtitle .red-text { text-shadow: #E83223 0px 0px 0.36vw; color: #E83223; }
+
+
+	.subtitle .yellow-text { text-shadow: #FCED51 0px 0px 0.36vw; color: #FCED51; }
+
+
+	.subtitle .green-text { text-shadow: #76FA46 0px 0px 0.36vw; color: #76FA46; }
+
+
+	.subtitle .blue-text { text-shadow: #5d8cf7 0px 0px 0.36vw; color: #5d8cf7; }
+
+/* action items / buttons */
+    .button {
+        display: inline-block;
+        padding: 7pt;
+        border-radius: 5px;
+        background-color: #3d4654;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        font-size: 14px; 
+    }
+
+    .button.red{ color: #E83223; }
+    .button.red:hover { 
+        background-color: #E83223;
+        color: white;
+    }
+    .button.yellow{ color:#FCED51; };
+    .button.yellow:hover { 
+        background-color: #FCED51;
+        color: white;
+    }
+    .button.green{ color: #76FA46; }
+    .button.green:hover { 
+        background-color: #76FA46;
+        color: white;
+    }
+    .button.blue{ color: #5d8cf7; }
+    .button.blue:hover { 
+        background-color: #5d8cf7;
+        color: white;
+    }
+
